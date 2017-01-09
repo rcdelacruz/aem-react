@@ -4,6 +4,7 @@
     <jcr:content
         cq:allowedTemplates="[/apps/globe-unimart/templates/page]"
         cq:designPath="/etc/designs/globe-unimart"
+        jcr:title="Globe Unimart"
         jcr:primaryType="cq:PageContent"/>
     <cities/>
     <text/>

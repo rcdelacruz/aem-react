@@ -162,17 +162,17 @@
 												<embedded>
 														<groupId>com.sinnerschrader.aem.react</groupId>
 														<artifactId>core</artifactId>
-														<target>/apps/react-demo/install</target>
+														<target>/apps/globe-unimart/install</target>
 												</embedded> 
                          <embedded>
                             <groupId>com.sinnerschrader.aem.react</groupId>
                             <artifactId>democore</artifactId>
-                            <target>/apps/react-demo/install</target>
+                            <target>/apps/globe-unimart/install</target>
                         </embedded>
                         <embedded>
                             <groupId>org.apache.commons</groupId>
                             <artifactId>commons-pool2</artifactId>
-                            <target>/apps/react-demo/install</target>
+                            <target>/apps/globe-unimart/install</target>
                         </embedded>
 										</embeddeds>
 								</configuration>

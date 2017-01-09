@@ -22,7 +22,7 @@ for (var idx in process.argv) {
 }
 
 console.log("watch = " + watch);
-var jcrPath = path.join(__dirname, '..', '..', '..', 'target', 'classes', 'etc', 'designs', 'react-demo', 'js', 'react-demo');
+var jcrPath = path.join(__dirname, '..', '..', '..', 'target', 'classes', 'etc', 'designs', 'globe-unimart', 'js', 'globe-unimart');
 
 
 var targetFileName = serverJs ? "server.js" : "app.js";

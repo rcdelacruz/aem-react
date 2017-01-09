@@ -9,7 +9,7 @@ import CityView from "./cityfinder/CityView";
 import {Panel} from "./vanilla/Panel";
 import {TextField} from "./vanilla/TextField";
 
-let registry: ComponentRegistry = new ComponentRegistry("react-demo/components");
+let registry: ComponentRegistry = new ComponentRegistry("globe-unimart/components");
 registry.register(Embedded);
 registry.register(Text);
 registry.register(ReactParsys);

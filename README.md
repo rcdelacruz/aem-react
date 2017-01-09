@@ -19,7 +19,7 @@ An comprehensive **[documentation](https://sinnerschrader.github.io/aem-react/)*
 # Deploy / install the demo
 
 You can download the demo content package from [here]() and deploy it to your local AEM instance. 
-View the [demo](localhost:4502/content/react-demo/index.html)
+View the [demo](localhost:4502/content/globe-unimart/index.html)
 
 To install the demo locally:
 
@@ -40,7 +40,7 @@ Check configuration of ReactScriptEngine in webconsole:
 - go to /system/console/configMgr
 - search for "react" in the browser
 - open the configuration of "ReactJs Script Engine Factory"
-- important: jcr path must be "/etc/designs/react-demo/js/react-demo/server.js/jcr:content"
+- important: jcr path must be "/etc/designs/globe-unimart/js/globe-unimart/server.js/jcr:content"
 - if it is not then update it.
 
 

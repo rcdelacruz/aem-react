@@ -1,6 +1,6 @@
 # Aem example components
 
-This folder contains the react components and javascript build tools for the AEM react demo project.
+This folder contains the react components and javascript build tools for the AEM Globe Unimart project.
 
 ## build
 

@@ -10,15 +10,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<modelVersion>4.0.0</modelVersion>
 		<parent>
-				<groupId>com.sinnerschrader.aem.react</groupId>
+				<groupId>com.globe.unimart.aem.react</groupId>
 				<artifactId>aem-react</artifactId>
 				<version>0.4.1-SNAPSHOT</version>
 				<relativePath>../pom.xml</relativePath>
 		</parent>
 		<artifactId>core</artifactId>
 		<packaging>bundle</packaging>
-		<name>website - Core</name>
-		<description>Core bundle for website</description>
+		<name>Globe Unimart- Core</name>
+		<description>Core bundle for Globe Unimart- React</description>
 		<build>
 				<plugins>
 						<plugin>
@@ -50,7 +50,7 @@
 														rhino,
 														jsoup
 												</Embed-Dependency>
-												<Export-Package>com.sinnerschrader.aem.react.*</Export-Package>
+												<Export-Package>com.stratpoint.aem.react.*</Export-Package>
 												<Sling-Model-Packages />
 										</instructions>
 								</configuration>

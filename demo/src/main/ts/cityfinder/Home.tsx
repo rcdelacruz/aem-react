@@ -9,7 +9,7 @@ export default class Home extends AemComponent<any, any> {
     public renderCityList(): React.ReactElement<any>[] {
         let storeList: React.ReactElement<any>[] = [];
 
-        let service: ServiceProxy = this.getRequestModel("com.sinnerschrader.aem.react.demo.CityFinderModel");
+        let service: ServiceProxy = this.getRequestModel("com.globe.unimart.aem.react.demo.CityFinderModel");
         let cities: any[] = service.invoke("findCities", this.props.route.baseResourcePath, "par/city_finder/content");
 
         cities.forEach(function (model: any, childIdx: number): void {

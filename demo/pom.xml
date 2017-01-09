@@ -14,7 +14,7 @@
 		<!-- P A R E N T P R O J E C T D E S C R I P T I O N -->
 		<!-- ====================================================================== -->
 		<parent>
-        <groupId>com.sinnerschrader.aem.react</groupId>
+        <groupId>com.globe.unimart.aem.react</groupId>
         <artifactId>aem-react</artifactId>
 				<version>0.4.1-SNAPSHOT</version>
 				<relativePath>../pom.xml</relativePath>
@@ -25,8 +25,8 @@
 		<!-- ====================================================================== -->
 		<artifactId>demo</artifactId>
 		<packaging>content-package</packaging>
-		<name>website - UI apps</name>
-		<description>UI apps package for website</description>
+		<name>Globe Unimart - UI apps</name>
+		<description>UI apps package for Globe Unimart</description>
     
     <properties>
       <javascript.environment>production</javascript.environment>
@@ -157,15 +157,15 @@
 										<filterSource>${basedir}/META-INF/vault/filter.xml</filterSource>
 										<verbose>true</verbose>
 										<failOnError>true</failOnError>
-										<group>com.sinnerschrader</group>
+										<group>com.globe.unimart</group>
 										<embeddeds>
 												<embedded>
-														<groupId>com.sinnerschrader.aem.react</groupId>
+														<groupId>com.globe.unimart.aem.react</groupId>
 														<artifactId>core</artifactId>
 														<target>/apps/globe-unimart/install</target>
 												</embedded> 
                          <embedded>
-                            <groupId>com.sinnerschrader.aem.react</groupId>
+                            <groupId>com.globe.unimart.aem.react</groupId>
                             <artifactId>democore</artifactId>
                             <target>/apps/globe-unimart/install</target>
                         </embedded>
@@ -295,13 +295,13 @@
 		<!-- ====================================================================== -->
 		<dependencies>
 				<dependency>
-						<groupId>com.sinnerschrader.aem.react</groupId>
+						<groupId>com.globe.unimart.aem.react</groupId>
 						<artifactId>core</artifactId>
 						<version>${project.version}</version>
 				</dependency>
 
         <dependency>
-            <groupId>com.sinnerschrader.aem.react</groupId>
+            <groupId>com.globe.unimart.aem.react</groupId>
             <artifactId>democore</artifactId>
             <version>${project.version}</version>
         </dependency>

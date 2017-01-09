@@ -10,15 +10,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<modelVersion>4.0.0</modelVersion>
 		<parent>
-				<groupId>com.sinnerschrader.aem.react</groupId>
+				<groupId>com.globe.unimart.aem.react</groupId>
 				<artifactId>aem-react</artifactId>
 				<version>0.4.1-SNAPSHOT</version>
 				<relativePath>../pom.xml</relativePath>
 		</parent>
 		<artifactId>democore</artifactId>
 		<packaging>bundle</packaging>
-		<name>website - demo core</name>
-		<description>Core bundle for website</description>
+		<name>Globe Unimart - demo core</name>
+		<description>Core bundle for Globe Unimart</description>
 		<build>
 				<plugins>
 						<plugin>
@@ -52,8 +52,8 @@
 														rhino,
 														jsoup
 												</Embed-Dependency>
-												<Export-Package>com.sinnerschrader.aem.react.demo.*</Export-Package>
-												<Sling-Model-Packages>com.sinnerschrader.aem.react.demo</Sling-Model-Packages>
+												<Export-Package>com.globe.unimart.aem.react.demo.*</Export-Package>
+												<Sling-Model-Packages>com.globe.unimart.aem.react.demo</Sling-Model-Packages>
 										</instructions>
 								</configuration>
 						</plugin>
@@ -154,7 +154,7 @@
 						<artifactId>aem-api</artifactId>
 				</dependency>
         <dependency>
-            <groupId>com.sinnerschrader.aem.react</groupId>
+            <groupId>com.globe.unimart.aem.react</groupId>
             <artifactId>core</artifactId>
             <version>${project.version}</version>
         </dependency>

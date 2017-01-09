@@ -13,7 +13,7 @@ export default class CityView extends ResourceComponent<CityDetail, any, any> {
 
     public renderBody(): React.ReactElement<any> {
         let cityDetail: CityDetail = this.getResource();
-        let name: string = this.getRequestModel("com.sinnerschrader.aem.react.demo.CityViewModel").invoke("getName");
+        let name: string = this.getRequestModel("com.globe.unimart.aem.react.demo.CityViewModel").invoke("getName");
         return (
             <div>
                 <h1>{name}</h1>

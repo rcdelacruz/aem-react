@@ -60,11 +60,15 @@ var config = {
         filename: "[name].js"
     },
     resolve: {
-        extensions: ['', '.tsx', '.webpack.js', '.web.js', '.js']
+        extensions: ['', '.tsx', '.webpack.js', '.web.js', '.js', '.less']
 
     },
     module: {
         loaders: [
+            {
+                test: /\.(less)$/,
+                loader: 'css!less'
+            },
             {
                 test: /\.(ts|tsx)$/,
                 loader: 'ts-loader'

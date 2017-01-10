@@ -1,0 +1,15 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "editor.fontFamily": "'Source Code Pro', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 12.3,
+    // The number of spaces a tab is equal to.
+    "editor.tabSize": 2,
+    // Controls the font weight.
+    "editor.fontWeight": "300",
+
+    // Controls if the editor should automatically format the line after typing
+   
+    "jshint.enable": false,
+    "eslint.enable": false,
+    "editor.formatOnSave": true
+  }
